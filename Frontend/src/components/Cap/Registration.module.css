@@ -1,0 +1,60 @@
+.new-registration__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    border-color: #47035d;
+  }
+  
+  .new-registration__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    border-color: #47035d;
+  }
+  
+  .new-registration__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    border-color: #47035d;
+  }
+  
+  .new-registration__actions {
+    text-align: left;
+  }
+
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #6b068a;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #47035d;
+    border-color: #47035d;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #6b068a;
+  }
+  
+  .actions .button {
+    background-color: #6b068a;
+    color: white;
+  }
+  
