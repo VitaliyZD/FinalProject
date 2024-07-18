@@ -1,5 +1,5 @@
 // форма заказа
-import { useRef, useState } from 'react' //для получения введенного количества
+import React, { useRef, useState } from 'react' //для получения введенного количества
 import Input from '../../UI/Input';
 import styles from './ProductItemForm.module.css';
 
@@ -8,7 +8,6 @@ const ProductItemForm = (props) => {
     const amountInputRef = useRef();
 
     const submitHandler = (event) => {
-        debugger;
         event.preventDefault();
 
         const inputAmount = amountInputRef.current.value;

@@ -4,7 +4,7 @@ import ModalAuthorization from '../UI/ModalAuthorization'
 
 const Authorization = (props) => {
 
-    return <ModalAuthorization onHideRAuthorization={props.onHideAuthorization}>
+    return <ModalAuthorization onHideAuthorization={props.onHideAuthorization}>
     <div className={styles['new-authorization__controls']}>
         <div className={styles['new-authorization__control']}>
             <label>Электронная почта</label>

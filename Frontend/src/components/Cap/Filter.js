@@ -10,7 +10,7 @@ const Filter = (props) => {
       <div className={styles["ilter__control"]}>
         <select value={props.сategory} onChange={сategoryСhangeHandler}>
           <option value="Карабины">Карабины</option>
-          <option value="Веревки">Веревки</option>
+          <option value="Веревка">Веревка</option>
           <option value="Зажимы">Зажимы</option>
           <option value="Спусковые">Спусковые</option>
           <option value="Обвязки">Обвязки</option>

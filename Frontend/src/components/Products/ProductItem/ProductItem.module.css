@@ -1,9 +1,13 @@
 .product {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     margin: 1rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
     border-bottom: 1px solid #ccc;
+  }
+
+  .right {
+
   }
   
   .product h3 {
@@ -19,4 +23,8 @@
     font-weight: bold;
     color: #6b068a;
     font-size: 1.3rem;
+  }
+
+  .product-image {
+    transform: scale(0.4);
   }

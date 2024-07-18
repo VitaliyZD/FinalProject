@@ -7,6 +7,7 @@ import Registration from './components/Cap/Registration';
 import Authorization from './components/Cap/Authorization';
 
 
+
 function App() {
 
   const [basketIsVisible, setBasketIsVisible] = useState(false) 
@@ -35,6 +36,8 @@ function App() {
   const hideAuthorizationHandler = () => {
     setAuthorizationIsVisible(false)
   };
+  
+  const [selectedCategory, setSelectedCategory ] = useState('Веревка');
 
   return (
     <BasketContextProvider>
@@ -43,10 +46,15 @@ function App() {
       {authorizationIsVisible && <Authorization onHideAuthorization={hideAuthorizationHandler} />}
       <Header onShow={showBasketHandler} 
       onShowRegistration={showRegistrationHandler} 
-      onShowAuthorization={showAuthorizationHandler} />
+      onShowAuthorization={showAuthorizationHandler} 
+      selectedCategory={selectedCategory}
+      setSelectedCategory={setSelectedCategory}
+       />
       <main>
-        <Products />
+        <Products selectedCategory={selectedCategory}/>
+
       </main>
+
     </BasketContextProvider>
   );
 }
