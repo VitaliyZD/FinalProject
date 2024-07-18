@@ -16,7 +16,7 @@ const ModalWindowRegistration = (props) => {
     );
 };
 
-const portalElementRegistration = document.getElementById('overlays2');
+const portalElementRegistration = document.getElementById('overlays');
 
 const ModalRegistration = (props) => {
     return (

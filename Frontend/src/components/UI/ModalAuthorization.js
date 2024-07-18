@@ -16,7 +16,7 @@ const ModalWindowAuthorization = (props) => {
     );
 };
 
-const portalElementAuthorization = document.getElementById('overlays3');
+const portalElementAuthorization = document.getElementById('overlays');
 
 const ModalAuthorization = (props) => {
     return (

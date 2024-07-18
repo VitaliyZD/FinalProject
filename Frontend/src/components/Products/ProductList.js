@@ -16,10 +16,10 @@ const CATALOG_PRODUCTS = [
     {
       id: "m2",
       type: 'Карабины',
-      name: "Карабин VENTO",
-      description: "Карабин с байнентной муфтой. Небольшой размер позволяет максимально удобно осуществлять перестежку",
+      name: "Карабин VENTO овал",
+      description: "Карабин овальный с байнентной муфтой. Небольшой размер позволяет максимально удобно осуществлять перестежку. Овальная форма идеально подходит для полиспастов и спусковых устройств",
       price: 1200,
-      img: 'https://verticalshop.ru/upload/iblock/9a4/8hreb8l3prhj932zq7i9o3v1b9wadatw/karabin_vento_bolshoy_avtomat_bayonet.jpg',
+      img: 'https://www.kant.ru/upload/iblock/89a/89abc1b1eb1e494901b4bcfd5d6e9067.jpg',
     },
     {
       id: "m3",
@@ -27,7 +27,7 @@ const CATALOG_PRODUCTS = [
       name: "Веревка Lanex",
       description: "Свойство - статика, состав - полиамид. Особенность веревки - сохранение прочности, мягкости на протяжении многих лет",
       price: 80,
-      img: 'https://yandex-images.clstorage.net/S5KE3f184/67382fRAy/R8Aala6htrZlozphz9ITeLaYCEaLWrvDL4gIWULyi8rJ2UPaYjkLsiPgRZ3OausU8KEmaAS0ILqei1YRtIhxB0rBMrHO-P_WSbMqNL-vd0i_XJDGN8JTHt8UgKzGipuj7flixidQogZ2qYR0Y-JbGOi90v3RaS3P08rXJLlpVHpfNN9A33WKpoF3AiGyisM4I3RcGlfqS-rTjBSo0tJ_g8GJ106PQIbDJiFc9Ps2b7xMcc5xYcUdP_8mh5w5WYBmW8gfJKst_ubdf6YZwj737O_wRA7TVuMaA6R0RKL-w58tOUfqx5AOY7YNgPiDSiuIsAmuWWlpMf-76t8U7QUMbpNgE1w_ye6GwV-ukVLSHyizQDgKg87nftc0FBRKDov_2TXDPkcQWufG0cS4v-5zOFjFRlElRU0nL1I_HDXdoELTIAesV6n22kmv8slW-m94v4Dg8v_Wp4rzgLSMdiKrh8UJIxqvkJ5f2q2wdCMGX_RYhc7FZSGpR9teC3Cxbfgqv2gT-BeZWr7tLxa1RrLzvFcApGIX2mtif5QAKHIyM3PtBd9mC1zGv9I9KFz34hc89ElipY1h2Wu_8t_UKWHUVq8w60A3OSLieVOiBbqCG_ynDIgSD8ZjltMcdFyqYvcP-eVjNkdAii8SuSCUi5bTwPCZypndwfHH714HZFWpEGqzQFtwA92mui3TqjFGOvvgV4Qs3ueqE0pzbMDQKtbXw_GJW-YjlHLn8vV0_A8Cd8jogU4tWal5X-daYxDtTWCuG8RHpMOFnurp09atuiYjIDe4aBY75ie2A9hMyLZyI49lQTf2fyT6E0rl3Oi75oOUJOW62V2d7edL7tOwbVWICivMjyAbeRou7RMiFb76H-DTJHTy18anRp-AvJzq0j-rRb0PZvMYbk_-HYRQjx4LqARVHpkNXcF_5wJ3lMHRoNo_yEN0Rz0uaiVXJpmWtvvAM6i4KreOt_JDFAi03ooo'
+      img: 'https://i.ebayimg.com/images/g/JUsAAOSwHhRbyZEW/s-l1600.jpg'
     },
     {
       id: "m4",
@@ -67,7 +67,7 @@ const CATALOG_PRODUCTS = [
         name: "Карабин МАНАРАГА",
         description: "Карабин с байнентной муфтой имеет увеличенный размер, что позволяет увеличить количество пристегиваемых елементов",
         price: 1300,
-        img: 'https://avatars.mds.yandex.net/get-mpic/11771522/2a0000018b04b8f3b5d25732831a8a11012d/orig',
+        img: 'https://avatars.mds.yandex.net/get-mpic/12300570/2a0000018eefc69a3c2831e6e5b3effdda24/orig',
       },
       {
         id: "m9",
@@ -75,7 +75,7 @@ const CATALOG_PRODUCTS = [
         name: "Веревка Fortis",
         description: "Свойство - статика, состав - полиэфир. Особенность веревки - сохранение прочности, мягкости на протяжении многих лет",
         price: 75,
-        img: 'https://avatars.mds.yandex.net/get-mpic/4120716/img_id3553059540716284776.jpeg/orig',
+        img: 'https://sizcontract.ru/upload/iblock/d1a/eu0bi5zw4zsz5h3fgbkc6u0cysgf5co8/veryevka_staticheskaya_fortis_11_mm_azotkhimfortis_100_m.jpg',
       },
       {
         id: "m10",
@@ -99,7 +99,15 @@ const CATALOG_PRODUCTS = [
           name: 'Ус самостраховки VENTO',
           description: "Подходит в качестве короткого уса для самостраховки человека. Благодаря встроенной резинки, ус временно укорачивается в длине",
           price: 1200,
-          img: 'https://bigwall.ru/upload/iblock/6e5/samostrakhovka.png',
+          img: 'https://www.kant.ru/upload/iblock/c07/c0774035db6e51e60e269e2ea58d7e1b.jpg',
+        },
+        {
+          id: "m13",
+          type: 'Карабины',
+          name: "Карабин VENTO Helium",
+          description: "Карабин с закручивающейся муфтой не позволяет привести в произвольное открытие карабина",
+          price: 1200,
+          img: 'https://avatars.mds.yandex.net/i?id=c2330fb2257864b5d92cdc290dce5be67a7887fa-7149282-images-thumbs&n=13',
         },
   ];
   

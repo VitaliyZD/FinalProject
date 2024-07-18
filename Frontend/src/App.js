@@ -37,7 +37,7 @@ function App() {
     setAuthorizationIsVisible(false)
   };
   
-  const [selectedCategory, setSelectedCategory ] = useState('Веревка');
+  const [selectedCategory, setSelectedCategory ] = useState('Усы и петли');
 
   return (
     <BasketContextProvider>

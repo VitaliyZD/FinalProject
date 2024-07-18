@@ -7,7 +7,12 @@
   }
 
   .right {
+    position: relative;
+    margin-right: 180px;
+  }
 
+  .left {
+    margin-right: 100px;
   }
   
   .product h3 {
@@ -25,6 +30,9 @@
     font-size: 1.3rem;
   }
 
-  .product-image {
-    transform: scale(0.4);
+  img {
+    height: 35vh;
+    justify-content: center;
+    position: absolute
+
   }

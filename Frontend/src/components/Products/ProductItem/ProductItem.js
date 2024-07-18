@@ -23,16 +23,16 @@ const ProductItem = (props) => {
 
     //4 div - форма для добавления товаров в корзину
     return <li className={styles.product}>
-                <div className={styles.right}>  
+                <div className={styles.left}>  
                     <div><h3>{props.name}</h3></div>
                     <div className={styles.description}>{props.description}</div>
                     <div className={styles.price}>{formattedPrice}</div>
                     <div><ProductItemForm onAddToBasket={addToBasketHandler} id={props.id} /></div>
                 </div>      
-                    {/* <div>
+                    <div className={styles.right}>
                         <img src={props.img}
                         className={styles['product-image']} />
-                    </div> */}
+                    </div>
             </li>;
 };
 export default ProductItem;
