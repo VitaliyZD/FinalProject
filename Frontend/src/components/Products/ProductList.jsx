@@ -2,7 +2,8 @@
 import styles from './ProductList.module.css'
 import Card from '../UI/Card'
 import ProductItem from './ProductItem/ProductItem';
-
+import {useEffect, useState} from 'react';
+import $api from '../../http'
 
 const CATALOG_PRODUCTS = [
     {
@@ -112,8 +113,15 @@ const CATALOG_PRODUCTS = [
   ];
   
 const ProductList = (props) => {
+  const [products, setProducts] = useState([]);
 
-  const filteredProducts = CATALOG_PRODUCTS.filter(product => {
+  useEffect(() => {
+    $api.get('/product/products').then(({data}) => {
+      setProducts(data);
+    })
+  }, []);
+
+  const filteredProducts = products.filter(product => {
     return product.type === props.selectedCategory;
   })
     

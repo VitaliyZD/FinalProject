@@ -27,4 +27,9 @@
     object-fit: cover;
     transform: rotateZ(-7deg) translateY(-2rem) translateX(5rem);
   }
+
+  .header_right {
+    display: flex;
+    align-items: center;
+  }
   
